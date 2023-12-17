@@ -1,4 +1,4 @@
-﻿from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request
 import sqlite3
 import json
 from flasgger import Swagger
@@ -352,4 +352,4 @@ if __name__ == "__main__":
     create_orders_table()
 
     # Run the Flask app
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
