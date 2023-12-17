@@ -160,4 +160,4 @@ if __name__ == "__main__":
     add_fixtures()
 
     # Run the Flask app
-    app.run(debug=True)
+    app.run(debug=True, port=5002)
