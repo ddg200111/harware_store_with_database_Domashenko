@@ -1,0 +1,1 @@
+# new_harware_store_Domashenko
